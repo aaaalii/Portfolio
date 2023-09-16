@@ -1,0 +1,72 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(198, 241, 233);
+}
+
+/* Basic styling for the header */
+header {
+    /* background-image: url('giphy.gif');  */
+    /* background-color: #0b0a0a; */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Navigation menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #a3e2e2;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+}
+
+/* Project styling */
+.project {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.skills{
+    background-color: #f4f4f4;
+    /* padding: 20px; */
+    margin-bottom: 20px;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
