@@ -1,9 +1,8 @@
-/* Reset some default styles */
 body{
     color: #ffffff;
     margin: 0;
     padding: 0;
-    background-image: url('pexels-ian-turnell-709552.jpg'); /* Path to your background image */
+    background-image: url('https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover; 
 }
 
